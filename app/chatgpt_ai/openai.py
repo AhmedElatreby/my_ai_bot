@@ -16,3 +16,4 @@ def chatgpt_response(prompt):
     if response_dict and len(response_dict) >0:
         prompt_response = response_dict[0]["text"]
     return prompt_response
+    
